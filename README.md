@@ -1,6 +1,6 @@
-# This is a personal website/portfolio.
+# This is a personal website/portfolio
 
-Project puild with nextJS, typescript, sass.
+Project build with nextJS, typescript, sass.
 
 ## Getting Started
 
@@ -18,4 +18,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Learn More
 
-[Working project](www.mitinart.ru)
+[Working project](https://www.mitinart.ru)
