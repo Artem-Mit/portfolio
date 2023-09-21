@@ -1,0 +1,51 @@
+@use '@/styles/color-variables' as vars;
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 136px);
+  background-color: vars.$gray-50;
+  color: vars.$gray-900;
+}
+
+.info {
+  margin-top: 48px;
+  text-align: center;
+}
+
+.email,
+.phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: vars.$gray-900;
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.11;
+  letter-spacing: -0.72px;
+}
+
+.phone {
+  margin-top: 20px;
+
+  &::before {
+    content: '';
+    display: block;
+    background-image: url(../../../images/phone-icon.svg);
+    height: 32px;
+    width: 32px;
+    margin-right: 20px;
+  }
+}
+
+.email::before {
+  content: '';
+  display: block;
+  background-image: url(../../../images/contact-icon.svg);
+  height: 32px;
+  width: 32px;
+  margin-right: 20px;
+}

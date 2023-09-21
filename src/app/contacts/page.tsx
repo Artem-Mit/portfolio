@@ -1,14 +1,13 @@
-import { About } from '@/components/organisms/About/About';
-import './aboutPage.module.scss';
+import { Contacts } from "@/components/organisms/Contacts/Contacts";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Mitin Artem | About',
+  title: 'Mitin Artem | Contacts',
   description: 'Personal website-portfolio of frontend developer Mitin Artem'
 }
 
 export default function Page() {
   return (
-    <About />
+    <Contacts />
   )
 }

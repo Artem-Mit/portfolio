@@ -12,7 +12,7 @@ export const HERO_TEXT = {
 
 export const ABOUT_SECTION = {
   title: 'About',
-  subTitle: "А little bit about me:",
+  subTitle: "А little bit info about me:",
   text: `I'm a passionate, self-proclaimed developer who specializes in frontend development (React.js & Next.js). I am very enthusiastic about bringing the technical and visual aspects of digital products to life. User experience, pixel perfect design, and writing clear, readable, highly performant code matters to me.\n\n
   I began my journey as a web developer in 2020, and since then, I've continued to grow and evolve as a developer, taking on new challenges and learning the latest technologies along the way. Now, in my early thirties, two years after starting my web development journey, I'm building cutting-edge web applications using modern technologies such as Next.js, TypeScript, Nestjs, Tailwindcss and much more.\n\n
   I am very much a progressive thinker and enjoy working on products end to end, from ideation all the way to development.\n\n
@@ -75,4 +75,11 @@ export const SKILLS_SECTION = {
 
 
   ]
+}
+
+export const CONTACTS_SECTION = {
+  title: 'Get in touch',
+  subTitle: "What’s next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect.",
+  email: 'artem.v.mitin@yandex.ru',
+  phone: '+7-921-913-91-21'
 }

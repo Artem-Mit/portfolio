@@ -1,6 +1,6 @@
 import { Hero } from "@/components/organisms/Hero/Hero";
 
-export default function App() {
+export default function Page() {
   return (
     <Hero />
   )
