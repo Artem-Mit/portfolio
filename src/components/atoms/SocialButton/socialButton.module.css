@@ -1,0 +1,8 @@
+.link {
+  width: 30px;
+  height: 30px;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}

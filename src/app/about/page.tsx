@@ -1,4 +1,4 @@
-import { About } from '@/components/About/About';
+import { About } from '@/components/organisms/About/About';
 import './aboutPage.module.scss';
 import { Metadata } from 'next';
 

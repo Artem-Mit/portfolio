@@ -1,6 +1,6 @@
 import { FC } from 'react';
-import { HeaderActions } from '../HeaderActions/HeaderActions';
-import { Navigation } from '../Navigation/Navigation';
+import { HeaderActions } from '../../molecules/HeaderActions/HeaderActions';
+import { Navigation } from '../../molecules/Navigation/Navigation';
 import styles from './header.module.scss';
 import { NAV_LINKS } from '@/utils/constants';
 import Link from 'next/link';

@@ -1,0 +1,21 @@
+@use '@/styles/color-variables' as vars;
+
+.skilltab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.image {
+  object-fit: contain;
+}
+
+.name {
+  margin: 0;
+  line-height: 1.55;
+  color: vars.$gray-600;
+}

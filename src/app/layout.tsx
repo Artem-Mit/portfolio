@@ -1,6 +1,6 @@
-import { Footer } from '@/components/Footer/Footer'
+import { Footer } from '@/components/organisms/Footer/Footer'
 import '../styles/index.scss'
-import { Header } from '@/components/Header/Header'
+import { Header } from '@/components/organisms/Header/Header'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {

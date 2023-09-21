@@ -9,3 +9,11 @@
   min-height: calc(100vh - 68px);
   background-color: vars.$gray-default;
 }
+
+.technologies {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 50px;
+}
