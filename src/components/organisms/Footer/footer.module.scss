@@ -1,0 +1,16 @@
+@use '@/styles/color-variables.scss' as vars;
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 68px;
+  background-color: vars.$gray-default;
+}
+
+.text {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.43;
+  color: vars.$gray-600;
+}

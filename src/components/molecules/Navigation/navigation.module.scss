@@ -1,0 +1,30 @@
+@use '@/styles/color-variables' as vars;
+
+.linksContainer {
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-right: 1px solid vars.$gray-100;
+
+  li:last-child {
+    margin-right: 24px;
+  }
+}
+
+.link {
+  color: vars.$gray-600;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  transition: color .2s ease-in;
+
+  &:hover {
+    color: vars.$gray-900;
+  }
+  &_active {
+    color: vars.$gray-900;
+  }
+}

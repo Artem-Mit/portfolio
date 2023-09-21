@@ -1,0 +1,17 @@
+@use '@/styles/color-variables' as vars;
+
+.button {
+  margin-left: 24px;
+  padding: 6px 16px;
+  background-color: vars.$gray-900;
+  color: vars.$gray-50;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500px;
+  line-height: 24px;
+  border-radius: 12px;
+  
+  &:hover {
+    cursor: pointer;
+  }
+}
