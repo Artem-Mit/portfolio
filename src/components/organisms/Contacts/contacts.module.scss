@@ -8,6 +8,7 @@
   min-height: calc(100vh - 136px);
   background-color: vars.$gray-50;
   color: vars.$gray-900;
+
   @media screen and (max-width: 768px) {
     padding: 0 20px;
   }
@@ -15,7 +16,10 @@
 
 .info {
   margin-top: 48px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .email,
@@ -23,6 +27,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  width: fit-content;
   color: vars.$gray-900;
   text-decoration: none;
   font-size: 36px;
