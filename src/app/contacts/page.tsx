@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Mitin Artem | Contacts',
-  description: 'Personal website-portfolio of frontend developer Mitin Artem'
+  description: 'Contacts of frontend developer Mitin Artem. You can contact me using them.'
 }
 
 export default function Page() {

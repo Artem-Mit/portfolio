@@ -8,7 +8,7 @@ import Link from 'next/link';
 export const Header: FC = () => {
   return (
     <header className={styles.header}>
-      <Link href='/' className={styles.logo}>{"<MitinArt />"}</Link>
+      <Link href='/' className={styles.logo}>{"<Mitin.Art />"}</Link>
       <div className={styles.buttons}>
         <Navigation links={NAV_LINKS} />
         <HeaderActions />
