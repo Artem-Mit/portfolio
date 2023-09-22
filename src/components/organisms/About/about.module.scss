@@ -15,6 +15,11 @@
   justify-content: space-between;
   gap: 48px;
   margin-top: 28px;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .text {
@@ -38,8 +43,17 @@
     color: vars.$gray-600;
     text-decoration: underline;
   }
+
+  @media screen and (max-width: 768px) {
+    text-align: center;
+  }
 }
 
 .photo {
   border-radius: 12px;
+
+  @media screen and (max-width: 768px) {
+    width: 250px;
+    height: 100%;
+  }
 }

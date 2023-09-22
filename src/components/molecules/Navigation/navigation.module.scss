@@ -11,6 +11,14 @@
   li:last-child {
     margin-right: 24px;
   }
+
+  @media screen and (max-width: 768px) {
+    gap: 10px;
+
+    li:last-child {
+      margin-right: 10px;
+    }
+  }
 }
 
 .link {
@@ -24,7 +32,12 @@
   &:hover {
     color: vars.$gray-900;
   }
+
   &_active {
     color: vars.$gray-900;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 10px;
   }
 }

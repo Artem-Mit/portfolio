@@ -4,9 +4,11 @@
   0% {
     transform: scale(0.8);
   }
+
   50% {
     transform: scale(0);
   }
+
   100% {
     transform: scale(0.8);
   }
@@ -22,7 +24,12 @@
   color: vars.$gray-900;
 
   @media screen and (width < 1100px) {
-    padding: 0 20px;
+    padding: 10px 20px;
+  }
+
+
+  @media screen and (width < 768px) {
+    flex-direction: column-reverse;
   }
 }
 
@@ -33,6 +40,9 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
+  @media screen and (max-width: 768px) {
+    align-items: center;
+  }
 }
 
 .header {
@@ -41,6 +51,9 @@
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: -1.2px;
+  @media screen and (max-width: 768px) {
+    font-size: 45px;
+  }
 }
 
 .text {
@@ -48,6 +61,9 @@
   margin-top: 8px;
   color: vars.$gray-600;
   margin-bottom: 48px;
+  @media screen and (max-width: 768px) {
+    text-align: center;
+  }
 }
 
 .location,
@@ -93,4 +109,3 @@
   object-fit: cover;
   border-radius: 12px;
 }
-
