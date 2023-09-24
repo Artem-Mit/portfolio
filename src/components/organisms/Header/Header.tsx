@@ -14,8 +14,7 @@ export const Header: FC = async () => {
       <Link href='/' className={styles.logo}>{"<Mitin.Art />"}</Link>
       <div className={styles.buttons}>
         <Navigation aboutLinkName={aboutLinkName} contactsLinkName={contactsLinkName} worksLinkName={worksLinkName} />
-        <HeaderActions buttonText={downloadButtonText} />
-        <LanguageButton language={anotherLanguage}/>
+        <HeaderActions buttonText={downloadButtonText} language={anotherLanguage} />
       </div>
     </header >
 
