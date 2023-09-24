@@ -8,6 +8,10 @@
   min-height: calc(100vh - 136px);
   background-color: vars.$gray-50;
   color: vars.$gray-900;
+
+  @media screen and (max-width: 768px) {
+    min-height: calc(100vh - 104px);
+  }
 }
 
 .image {

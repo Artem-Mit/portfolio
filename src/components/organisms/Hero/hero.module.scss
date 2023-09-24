@@ -52,7 +52,7 @@
   line-height: 1.2;
   letter-spacing: -1.2px;
   @media screen and (max-width: 768px) {
-    font-size: 45px;
+    font-size: 40px;
   }
 }
 
@@ -69,9 +69,9 @@
 .location,
 .available {
   display: flex;
-  align-items: center;
   margin: 0;
   color: vars.$gray-600;
+  width: 250px;
 }
 
 .location {
@@ -94,8 +94,8 @@
 .available {
   &::before {
     content: '';
-    width: 23px;
-    height: 23px;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
     background-color: rgba($color: #10B981, $alpha: 1.0);
     margin-right: 8px;
