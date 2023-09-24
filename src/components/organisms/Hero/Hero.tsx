@@ -21,7 +21,7 @@ export const Hero: FC = async () => {
         <SocialButtons />
       </div>
       <div className={styles.photoContainer}>
-        <Image src={photo} alt='photo' className={styles.photo} />
+        <Image src={photo} alt='photo' className={styles.photo} priority/>
       </div>
     </section>
   )

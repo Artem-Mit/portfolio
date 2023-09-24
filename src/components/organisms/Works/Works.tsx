@@ -10,7 +10,7 @@ export const Works: FC = async () => {
   return (
     <section className={styles.works}>
       <SectionTitle header={t('title')} text={t('subTitle')} />
-      <Image src={workInProgress} width={300} height={300} alt='work-in-progress' className={styles.image} />
+      <Image src={workInProgress} width={300} height={300} alt='work-in-progress' className={styles.image} priority/>
     </section>
   )
 }

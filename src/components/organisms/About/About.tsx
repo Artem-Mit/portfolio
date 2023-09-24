@@ -15,7 +15,7 @@ export const About: FC = async() => {
       <section className={styles.about}>
         <SectionTitle header={t('title')} text={t('subTitle')}/>
         <div className={styles.content}>
-          <Image className={styles.photo} src={photo} alt='photo' height={400} width={300} />
+          <Image className={styles.photo} src={photo} alt='photo' height={400} width={300} priority/>
           <ReactMarkdown linkTarget={'_blank'} className={styles.text}>{t('text')}</ReactMarkdown>
         </div>
       </section>
