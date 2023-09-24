@@ -70,7 +70,7 @@ export default {
   CONTACTS_SECTION: {
     title: 'Связаться со мной',
     subTitle: "Что дальше? Не стесняйтесь обращаться ко мне, если вы ищете разработчика, у вас есть вопрос или просто хотите пообщаться.",
-    email: 'artem.v.mitin@yandex.ru',
+    email: 'mitin.art.web@gmail.com',
     phone: '+7-921-913-91-21'
   },
   WORKS_SECTION: {
