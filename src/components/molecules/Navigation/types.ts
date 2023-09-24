@@ -1,9 +1,5 @@
-export type Link = {
-  name: string,
-  href: string
-}
-
-
-export type Navlinks = {
-  links: Link[]
+export type NavigationProps = {
+  aboutLinkName: string,
+  worksLinkName: string,
+  contactsLinkName: string,
 }

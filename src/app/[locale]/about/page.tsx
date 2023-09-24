@@ -1,5 +1,4 @@
 import { About } from '@/components/organisms/About/About';
-import './aboutPage.module.scss';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

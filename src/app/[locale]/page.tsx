@@ -1,5 +1,4 @@
 import { Hero } from "@/components/organisms/Hero/Hero";
-
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -7,7 +6,8 @@ export const metadata: Metadata = {
   description: 'Personal portfolio website of frontend developer Mitin Artem',
 }
 
-export default function Page() {
+export default async function Page() {
+
   return (
     <Hero />
   )

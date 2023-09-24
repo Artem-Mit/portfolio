@@ -1,7 +1,8 @@
 import { Inter } from 'next/font/google'
 import { Footer } from '@/components/organisms/Footer/Footer'
-import '../styles/index.scss'
+import '../../styles/index.scss'
 import { Header } from '@/components/organisms/Header/Header'
+import { getCurrentLocale } from '@/locales/server'
 
 const inter = Inter({
   display: 'swap',
@@ -14,8 +15,9 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+  const locale = getCurrentLocale()
   return (
-    <html lang="en" className={inter.className}>
+    <html lang={locale} className={inter.className}>
       <body>
         <Header />
         <main>

@@ -1,0 +1,14 @@
+@use '@/styles/color-variables.scss' as vars;
+
+.button {
+  display: inline-block;
+  color: vars.$gray-600;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 24px;
+  cursor: pointer;
+  @media screen and (max-width: 768px) {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+}

@@ -1,16 +1,18 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import styles from './skills.module.scss';
 import { SectionTitle } from '../../molecules/SectionTitle/SectionTitle';
-import { SKILLS_SECTION } from '@/utils/constants';
+import { SKILLS } from '@/utils/constants';
 import { SkillTab } from '@/components/molecules/SkillTab/SkillTab';
+import { getScopedI18n } from '@/locales/server';
 
-export const Skills: FC = () => {
+export const Skills: FC = async () => {
+  const t = await getScopedI18n('SKILLS_SECTION');
   return (
     <section className={styles.skills}>
-      <SectionTitle header={SKILLS_SECTION.title} text={SKILLS_SECTION.subTitle} />
+      <SectionTitle header={t('title')} text={t('subTitle')} />
       <div className={styles.technologies}>
-        {!!SKILLS_SECTION.skills &&
-          SKILLS_SECTION.skills.map((technology) => (
+        {!!SKILLS &&
+          SKILLS.map((technology) => (
             <SkillTab imgUrl={technology.imgUrl} name={technology.name} key={technology.name} />
           ))
         }

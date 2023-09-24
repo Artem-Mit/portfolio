@@ -1,28 +1,35 @@
 'use client'
-
-import Link from 'next/link'
-import { Navlinks } from './types'
 import { usePathname } from 'next/navigation'
 import styles from './navigation.module.scss'
+import Link from 'next/link'
 import { FC } from 'react'
+import { NavigationProps } from './types'
 
-export const Navigation: FC<Navlinks> = ({ links }) => {
+export const Navigation: FC<NavigationProps> = ({ aboutLinkName, worksLinkName, contactsLinkName }) => {
   const pathname = usePathname();
   return (
     <nav>
       <ul className={styles.linksContainer}>
-        {links.map((link) => {
-          const isActive = pathname === link.href
-          return (
-            <li key={link.href} >
-              <Link href={link.href}
-                className={`${styles.link} ${isActive ? `${styles.link_active}` : ``}`}>
-                {link.name}
-              </Link>
-            </li>
-          )
-        })}
+        <li>
+          <Link href={'/about'}
+            className={`${styles.link} ${pathname === '/about' ? `${styles.link_active}` : ``}`}>
+            {aboutLinkName}
+          </Link>
+        </li>
+        <li>
+          <Link href={'/works'}
+            className={`${styles.link} ${pathname === '/works' ? `${styles.link_active}` : ``}`}>
+            {worksLinkName}
+          </Link>
+        </li>
+        <li>
+          <Link href={'/contacts'}
+            className={`${styles.link} ${pathname === '/contacts' ? `${styles.link_active}` : ``}`}>
+            {contactsLinkName}
+          </Link>
+        </li>
       </ul>
     </nav >
   )
 }
+
