@@ -9,7 +9,7 @@ export const SocialButtons: FC = () => {
   return (
     <div className={styles.buttons}>
       <SocialButton socialLink={'https://github.com/Artem-Mit'} imgUrl={githubIcon} />
-      <SocialButton socialLink={'mailto:artem.v.mitin@yandex.ru'} imgUrl={gmailIcon} />
+      <SocialButton socialLink={'mailto:mitin.art.web@gmail.ru'} imgUrl={gmailIcon} />
       <SocialButton socialLink={'https://t.me/+79219139121'} imgUrl={tgIcon} />
     </div>
   )
