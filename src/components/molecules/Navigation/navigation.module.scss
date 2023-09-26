@@ -16,10 +16,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 45vh;
+    height: 50vh;
     border-right: 0;
     border-bottom: 2px solid vars.$gray-100;
-
     li:last-child {
       margin-right: 0;
     }
