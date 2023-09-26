@@ -6,7 +6,6 @@ import { MenuContext } from '@/contexts/menuProvider';
 
 export const Burger: FC = () => {
   const { isOpened, setIsOpened } = useContext(MenuContext);
-  console.log(isOpened);
 
   return (
     <>
