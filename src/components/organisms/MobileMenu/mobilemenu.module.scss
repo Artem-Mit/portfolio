@@ -1,0 +1,25 @@
+@use '@/styles/color-variables.scss' as vars;
+.menu {
+  display: none;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: vars.$gray-default;
+}
+
+.menu_active {
+  display: block;
+}
+
+.closeButton {
+  width: 36px;
+  height: 36px;
+  background-image: url('../../../images/closeIcon.svg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 40px;
+  top: 12px;
+}

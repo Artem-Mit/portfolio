@@ -8,7 +8,7 @@
   background-color: vars.$gray-default;
 
   @media screen and (max-width: 768px) {
-    padding: 8px 20px;
+    padding: 8px 40px;
   }
 }
 
@@ -21,11 +21,14 @@
   text-decoration: none;
 
   @media screen and (max-width: 800px) {
-    font-size: 15px;
+    font-size: 25px;
   }
 }
 
 .buttons {
   display: flex;
   align-items: center;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 }

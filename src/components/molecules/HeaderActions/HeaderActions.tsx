@@ -6,9 +6,9 @@ import { LanguageButton } from '@/components/atoms/LanguageButton/LanguageButton
 
 export const HeaderActions: FC<HeaderActionsProps> = ({ buttonText, language }) => {
   return (
-    <>
+    <div className={styles.actionsContainer}>
       <Link href='cv.pdf' target={'_blank'} className={styles.button}>{buttonText}</Link>
-      <LanguageButton language={language}/>
-    </>
+      <LanguageButton language={language} />
+    </div>
   )
 }

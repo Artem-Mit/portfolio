@@ -1,0 +1,13 @@
+.burger {
+  background-image: url('../../../images/burger-menu-right-svgrepo-com.svg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 36px;
+  width: 36px;
+  cursor: pointer;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
