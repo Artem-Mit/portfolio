@@ -1,15 +1,17 @@
 @use '@/styles/color-variables.scss' as vars;
 .menu {
-  display: none;
+  display: block;
   height: 100%;
   width: 100%;
   position: fixed;
   top: 0;
   background-color: vars.$gray-default;
+  transform: translateX(100%);
+  transition: all .3s;
 }
 
 .menu_active {
-  display: block;
+  transform: translateX(0%);
 }
 
 .closeButton {
