@@ -1,7 +1,8 @@
 @use '@/styles/color-variables.scss' as vars;
 .menu {
   display: none;
-  height: 100%;
+  height: 100lvh;
+  -moz-height: 100%;
   width: 100%;
   position: fixed;
   top: 0;
