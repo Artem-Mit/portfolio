@@ -16,12 +16,12 @@ export const Navigation: FC<NavigationProps> = ({ aboutLinkName, worksLinkName, 
             {aboutLinkName}
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link href={'/works'} onClick={onClick}
             className={`${styles.link} ${pathname === '/works' ? `${styles.link_active}` : ``}`}>
             {worksLinkName}
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link href={'/contacts'} onClick={onClick}
             className={`${styles.link} ${pathname === '/contacts' ? `${styles.link_active}` : ``}`}>
